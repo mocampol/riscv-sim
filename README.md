@@ -30,9 +30,7 @@ riscv-sim/
 │   ├── memory.hpp / memory.cpp   // memoria plana little-endian
 │   ├── cpu.hpp / cpu.cpp         // estado arquitectural + decode/execute
 │   └── main.cpp                  // CLI / REPL
-├── tests/
-│   ├── gen_test.py               // genera un binario RV32I de prueba a mano
-│   └── test.bin                  // binario de prueba ya generado
+├── tests                         // Tests en binario
 ├── CMakeLists.txt
 ├── Makefile
 └── README.md
