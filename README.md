@@ -58,12 +58,10 @@ la raiz del proyecto con `make`).
 ## ¿Cómo ejecutar?
 
 ```bash
-./riscv-sim programa.bin [tamano_memoria_bytes]
+./riscv-sim programa.bin
 ```
 
 - `programa.bin`: archivo binario crudo a cargar en la direccion `0x0`.
-- `tamano_memoria_bytes` (opcional): tamano de la memoria simulada en bytes.
-  Por defecto 1 MiB (`1048576`). Acepta decimal o hex (`0x...`).
 
 Al iniciar, el simulador entra en un prompt interactivo (`>`).
 
